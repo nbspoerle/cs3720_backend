@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: netid-courses-api
+    runtime: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: python server.py
+    healthCheckPath: /products
+    
