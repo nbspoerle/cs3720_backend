@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: netid-courses-api
+    name: spoerlen-courses-api
     runtime: python
     plan: free
     buildCommand: pip install -r requirements.txt
